@@ -83,7 +83,7 @@ function checkDeviceAuthorization(data) {
     return;
   }
 
-  if (data.location.some(location => location.endsWith('@owensboro.kyschools.us'))) {
+  if (data.location.some(location => location.endsWith('@fsisd.net'))) {
     console.log('Device assigned to a staff member, not blocking anything.');
     return;
   }
